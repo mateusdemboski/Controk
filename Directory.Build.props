@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup Label="Custom properties">
+    <DefaultTargetFramework>net8.0</DefaultTargetFramework>
+    <SolutionNamespace>Controk</SolutionNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Default configuration">
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <Company>Controk</Company>
+    <Copyright>© Controk. All rights reserved.</Copyright>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup Label="Default analyzers">
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+      <TargetFramework>$(DefaultTargetFramework)</TargetFramework>
+    </PropertyGroup>
+
+  <PropertyGroup Label="NuGet Information">
+    <Description>Implementation of dependency injection for interfaces for mapping objects.</Description>
+    <PackageTags>extensions mapping builder mapper dependency injection</PackageTags>
+    <PackageReleaseNotes>
+      - Adds registration for mappings and builders.
+    </PackageReleaseNotes>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+      <PackageReference Include="Scrutor" Version="5.0.1" />
+    </ItemGroup>
+
+</Project>

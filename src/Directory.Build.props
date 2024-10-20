@@ -1,0 +1,10 @@
+<Project>
+  <Import Project="..\Directory.Build.props" />
+
+  <PropertyGroup>
+    <RootNamespace Condition="'$(DomainName)' == ''">$(SolutionNamespace).$(MSBuildProjectName)</RootNamespace>
+    <RootNamespace Condition="'$(DomainName)' != ''">$(SolutionNamespace).$(DomainName).$(MSBuildProjectName)</RootNamespace>
+    <AssemblyName>$(RootNamespace)</AssemblyName>
+  </PropertyGroup>
+
+</Project>

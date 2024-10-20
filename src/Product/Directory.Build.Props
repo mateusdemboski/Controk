@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+        <DomainName>Product</DomainName>
+    </PropertyGroup>
+
+    <Import Project="../Directory.Build.props" />
+</Project>
